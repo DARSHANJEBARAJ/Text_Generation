@@ -23,7 +23,7 @@ def add_bg_from_local(image_file):
     )
 
 # Call the function with the path to your local image
-add_bg_from_local(r"C:\Users\darsh\Desktop\prodigy\text_generation\3072d780c677072f5037aeb2413e2061.jpg")  # Use your image path
+add_bg_from_local(r"background.jpg")  # Use your image path
 
 # Load the GPT-2 model and tokenizer
 @st.cache_resource
