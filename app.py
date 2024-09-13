@@ -42,7 +42,7 @@ input_text = st.text_input("Enter some text to start generating:", "")
 
 # Parameters for text generation
 max_length = st.slider("Max length of generated text:", 50, 300, 100)
-temperature = st.slider("Temperature (creativity level):", 0.7, 1.5, 1.0, step=0.1)
+temperature = st.slider("Creativity Level:", 0.7, 1.5, 1.0, step=0.1)
 
 # Generate button
 if st.button("Generate Text"):
